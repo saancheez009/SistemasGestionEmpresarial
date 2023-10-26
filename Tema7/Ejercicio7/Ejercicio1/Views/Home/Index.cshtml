@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Saludo</h1>
+
+<p>@ViewData["Saludo"]</p>
+
+<p>@ViewBag.HoraActual</p>
+
+<p>NOMBRE: @ViewBag.Nombre</p>
+<p>APELLIDOS: @ViewBag.Apellido</p>
+<p>DIRECCION: @ViewBag.Direccion</p>
+
+@Html.ActionLink("Listado de personas","Home" ,"ListadoPersonas")
