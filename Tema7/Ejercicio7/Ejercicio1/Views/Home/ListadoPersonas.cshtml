@@ -1,4 +1,5 @@
-﻿
+﻿@using Ejercicio1.Models.Entities;
+@model List<Ejercicio1.Models.Entities.clsPersona>
 @{
     ViewData["Title"] = "ListadoPersonas";
     var listadoPersonas = ViewBag.listPers;
@@ -9,26 +10,40 @@
     }
 
     td {
-        border: 1px solid black;
         padding: 5px;
-        width: 400px;
-        text-align: center;
+        text-align: left;
     }
 </style>
 
 <h1>ListadoPersonas</h1>
 <table >
-    @{
-        for(int i =0; i <= listadoPersonas.size; i++)
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+    </thead>
+    @* @{
+        for(int i =0; i < Model.Count; i++)
         {
             <tr>
-                @{
-                    for (int j =0; j<=i; j++){
-                        <td>@listadoPersonas[i]</td>
-                        }
-                }
+                <td>@Model[i].Nombre</td>
+                <td>@Model[i].Apellido</td>
             </tr>
         }
+    } *@
+
+    @{
+        foreach (clsPersona pers in Model)
+        {
+            <tr>
+                <td>@pers.Nombre</td>
+                <td>@pers.Apellido</td>
+            </tr>
+
+        }
+        
     }
 </table>
 
+@Html.ActionLink("Volver al Index", "Index")

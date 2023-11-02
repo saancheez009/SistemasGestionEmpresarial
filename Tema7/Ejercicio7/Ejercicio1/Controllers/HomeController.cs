@@ -1,4 +1,5 @@
 ﻿using Ejercicio1.Models;
+using Ejercicio1.Models.DAL;
 using Ejercicio1.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -11,14 +12,14 @@ namespace Ejercicio1.Controllers
         public IActionResult Index()
         {
             clsPersona persona = new clsPersona();
-            DateTime horaActual = DateTime.Now;
+            DateTime fechaActual = DateTime.Now;
 
-            if (horaActual.Hour >= 5 && horaActual.Hour <= 12)
+            if (fechaActual.Hour >= 5 && fechaActual.Hour <= 12)
             {
                 ViewData["Saludo"] = "Buenos días";
 
             }
-            else if (horaActual.Hour > 12 && horaActual.Hour < 9)
+            else if (fechaActual.Hour > 12 && fechaActual.Hour < 9)
             {
                 ViewData["Saludo"] = "Buenas tardes";
 
@@ -28,7 +29,7 @@ namespace Ejercicio1.Controllers
                 ViewData["Saludo"] = "Buenas noches";
             }
 
-            ViewBag.HoraActual = horaActual;
+            ViewBag.HoraActual = fechaActual;
 
 
             persona.Nombre = "Juanma";
@@ -40,22 +41,25 @@ namespace Ejercicio1.Controllers
             ViewBag.Direccion = persona.Direccion;
 
 
-            List<clsPersona> listaPers = new List<clsPersona>
-            {
-                new clsPersona("Juanma", "Sanchez"),
-                new clsPersona("Fernando", "Miguel"),
-                new clsPersona("Pablo", "Gonzalez"),
-                new clsPersona("Yeray", "Jimenez"),
-                new clsPersona("Matti", "Ditaranto"),
-            };
-            
-            ViewBag.listPers=listaPers;
-
-
-
-            return View();
+            return View(persona);
         }
+
+        public ActionResult listadoPersonas()
+        {
+            try 
+            { 
+                return View(ListadoPersona.listadoCompletoPersonas()); 
+
+            } catch (Exception ex) 
+            {
+                //Mandar a otra vista de error 
+
+                return View("Error");
+
+            }
         
+            
+        }
 
     }
 }

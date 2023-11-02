@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Ejercicio1.Models.Entities.clsPersona
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -8,8 +9,8 @@
 
 <p>@ViewBag.HoraActual</p>
 
-<p>NOMBRE: @ViewBag.Nombre</p>
-<p>APELLIDOS: @ViewBag.Apellido</p>
-<p>DIRECCION: @ViewBag.Direccion</p>
+<p>NOMBRE: @Model.Nombre</p>
+<p>APELLIDOS: @Model.Apellido</p>
+<p>DIRECCION: @Model.Direccion</p>
 
-@Html.ActionLink("Listado de personas","Home" ,"ListadoPersonas")
+@Html.ActionLink("Listado de personas","ListadoPersonas" ,"Home")
