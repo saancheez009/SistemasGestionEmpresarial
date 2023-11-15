@@ -4,7 +4,7 @@ using Ejercicio1.Models.Entities;
 namespace Ejercicio1.Models.ViewModel
 
 {
-    public class EditarPersonaVM: clsPersona
+    public class clsEditarPersonaVM: clsPersona
     {
         #region atributos
         private List<clsDepartamento> listaDept;
@@ -12,9 +12,9 @@ namespace Ejercicio1.Models.ViewModel
 
         #region constructores
 
-        public EditarPersonaVM() 
+        public clsEditarPersonaVM() 
         { 
-            this.listaDept = new List<clsDepartamento>(ListadoDepartamentos.ListadoCompletoDepartamento());
+            listaDept = ListadoDepartamentos.ListadoCompletoDepartamento();
         }
 
         #endregion

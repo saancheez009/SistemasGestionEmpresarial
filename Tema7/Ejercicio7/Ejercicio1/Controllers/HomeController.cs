@@ -1,6 +1,7 @@
 ﻿using Ejercicio1.Models;
 using Ejercicio1.Models.DAL;
 using Ejercicio1.Models.Entities;
+using Ejercicio1.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -34,11 +35,11 @@ namespace Ejercicio1.Controllers
 
             persona.Nombre = "Juanma";
             persona.Apellido = "Sanchez";
-            persona.Direccion = "¿Quieres raptarme?";
+
 
             ViewBag.Nombre=persona.Nombre;
             ViewBag.Apellido = persona.Apellido;
-            ViewBag.Direccion = persona.Direccion;
+
 
 
             return View(persona);
@@ -63,10 +64,17 @@ namespace Ejercicio1.Controllers
 
         public ActionResult EditarPersona(clsPersona persona)
         {
+            clsEditarPersonaVM objetoEditarVM = new clsEditarPersonaVM();
+         
+            return View(objetoEditarVM);
+        }
 
-            ViewBag.persona = persona;
 
-            return View(persona);
+        [HttpPost]
+        public ActionResult GuardarPersona(clsPersona persona) 
+        {
+
+            return View();
         }
 
     }

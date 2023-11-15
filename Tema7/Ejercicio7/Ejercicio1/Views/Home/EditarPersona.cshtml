@@ -1,13 +1,12 @@
-﻿@model Ejercicio1.Models.Entities.clsPersona
+﻿@using Ejercicio1.Models.Entities;
+@model Ejercicio1.Models.ViewModel.clsEditarPersonaVM
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@{
-}
-
-
 
 <form>
+   @Html.HiddenFor(Model=>Model.Id)
+
     <label>Nombre: </label>
     @Html.TextBoxFor(Model => Model.Nombre)
 
@@ -22,13 +21,26 @@
     <br />
 
     <label>Seleccione el departamento: </label>
-    <select for = Model.IdDpto>
-        <option >Departamentos</option>
-        <option value="1">RRHH</option>
-        <option value="2">Produccion</option>
-        <option value="3">Administracion</option>
-        <option value="4">Finanzas</option>
-        <option value="5">Marketing</option>
+    <select name="IdDepartamento">
+        
+        @{
+            foreach (clsDepartamento depto in Model.ListaDept)
+            {
+
+                if (Model.IdDpto == depto.Id)
+                {
+                    <option selected = selected value=@depto.Id>@depto.Nombre</option>
+                }
+                else
+                {
+                    <option value=@depto.Id>@depto.Nombre</option>
+                    
+                }
+
+                
+            }
+
+        }
     </select>
 
 
@@ -36,9 +48,11 @@
     <br />
 
     <button type="submit">Guardar</button>
-</form>
+
 
 <br />
+
+</form>
 
 @Html.ActionLink("Volver al Index", "Index")
 
