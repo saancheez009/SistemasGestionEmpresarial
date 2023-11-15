@@ -1,34 +1,47 @@
-﻿@*
+﻿@model Ejercicio1.Models.Entities.clsPersona
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
 }
 
-<form>
-    <label for="fname">Nombre: </label>
-    <input type="text" id="fname" name="fname">
 
-    <br>
+
+<form>
+    <label>Nombre: </label>
+    @Html.TextBoxFor(Model => Model.Nombre)
+
+    <br />
     <br />
 
-    <label for="lname">Apellido: </label>
-    <input type="text" id="lname" name="lname">
+    <label>Apellido: </label>
+    @Html.TextBoxFor(Model => Model.Apellido)
 
-    <br/>
+
+    <br />
     <br />
 
     <label>Seleccione el departamento: </label>
-    <select>
-        <option selected>Departamentos</option>
+    <select for = Model.IdDpto>
+        <option >Departamentos</option>
         <option value="1">RRHH</option>
-        <option value="2" >Produccion</option>
+        <option value="2">Produccion</option>
         <option value="3">Administracion</option>
         <option value="4">Finanzas</option>
         <option value="5">Marketing</option>
     </select>
 
+
     <br />
     <br />
-    <button>Guardar</button>
-    
+
+    <button type="submit">Guardar</button>
 </form>
+
+<br />
+
+@Html.ActionLink("Volver al Index", "Index")
+
+<br />
+<br />
+@Html.ActionLink("Volver al listado de personas", "ListadoPersonas")

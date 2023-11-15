@@ -63,7 +63,10 @@ namespace Ejercicio1.Controllers
 
         public ActionResult EditarPersona(clsPersona persona)
         {
-            return View();
+
+            ViewBag.persona = persona;
+
+            return View(persona);
         }
 
     }
