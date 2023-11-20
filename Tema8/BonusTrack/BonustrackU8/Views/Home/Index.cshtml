@@ -1,8 +1,32 @@
-﻿@{
+﻿@using Biblioteca
+@using BonustrackU8.Models
+@model clsMision
+@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    .nombreMision{
+        opacity:0;
+    }
+</style>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<select>
+@{
+    foreach (clsMision mision in ListadoMisiones.ListadoMisionesCompleto())
+    {
+        @if (Model != null && Model.Nombre == mision.Nombre)
+        {
+            <option selected value="@Model.Nombre">@Model.Nombre</option>
+        }
+        else
+        {
+            <option value="@mision.Nombre">@mision.Nombre</option>
+        }
+    } 
+}
+
+</select>
+<button type="submit"
+    action="index">Ver Detalles</button>
+
+

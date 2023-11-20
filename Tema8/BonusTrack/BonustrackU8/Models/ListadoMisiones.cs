@@ -2,7 +2,7 @@
 
 namespace BonustrackU8.Models
 {
-    public class ListadoMisiones
+    public static class ListadoMisiones
     {
         /// <summary>
         /// Método que devolverá un listado de misiones para Mando
@@ -11,7 +11,7 @@ namespace BonustrackU8.Models
         /// Postcondiciones: no tiene
         /// </summary>
         /// <returns></returns>
-        public List<clsMision> ListadoMisionesCompleto()
+        public static List<clsMision> ListadoMisionesCompleto()
         {
             List<clsMision> ListadoMisiones = new List<clsMision>
             {

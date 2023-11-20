@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BonustrackU8.props" />
+</Project>
