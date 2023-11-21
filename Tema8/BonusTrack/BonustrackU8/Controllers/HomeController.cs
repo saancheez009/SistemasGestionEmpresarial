@@ -14,16 +14,14 @@ namespace BonustrackU8.Controllers
             return View();
         }
 
-        public IActionResult Index(clsMision mision) 
-        { 
-            
-
-
-            return View(mision);
+        [HttpPost]
+       public IActionResult Index(clsMision mision) 
+        {
+            clsMision misionSelect = ListadoMisiones.ListadoMisionesCompleto().Find(m => m.Id == mision.Id);
+         
+            return View(misionSelect);
+    
         }
         
-
-        
-
     }
 }

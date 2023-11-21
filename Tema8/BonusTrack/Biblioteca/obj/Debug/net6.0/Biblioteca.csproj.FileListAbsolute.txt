@@ -9,3 +9,14 @@ C:\Users\sanch\OneDrive\Escritorio\2DAM\SistemaGestionEmpresarial\Tema8\BonusTra
 C:\Users\sanch\OneDrive\Escritorio\2DAM\SistemaGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\refint\Biblioteca.dll
 C:\Users\sanch\OneDrive\Escritorio\2DAM\SistemaGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\Biblioteca.pdb
 C:\Users\sanch\OneDrive\Escritorio\2DAM\SistemaGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\ref\Biblioteca.dll
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\bin\Debug\net6.0\Biblioteca.deps.json
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\bin\Debug\net6.0\Biblioteca.dll
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\bin\Debug\net6.0\Biblioteca.pdb
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\Biblioteca.AssemblyInfo.cs
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\Biblioteca.dll
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\refint\Biblioteca.dll
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\Biblioteca.pdb
+C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\Tema8\BonusTrack\Biblioteca\obj\Debug\net6.0\ref\Biblioteca.dll

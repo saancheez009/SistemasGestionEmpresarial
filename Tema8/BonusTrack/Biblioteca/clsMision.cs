@@ -3,6 +3,7 @@
     public class clsMision
     {
         #region atributos
+        private int id;
         private string nombre;
         private string detalles;
         private int recompensa;
@@ -14,9 +15,11 @@
             nombre = "";
             detalles = "";
             recompensa = 0;
+            id=0;
         }
-        public clsMision(string nombre, string detalles, int recompensa)
+        public clsMision(int id,string nombre, string detalles, int recompensa)
         {
+            this.id = id;
             this.nombre = nombre;
             this.detalles = detalles;
             this.recompensa = recompensa;
@@ -24,6 +27,11 @@
         #endregion
 
         #region propiedades
+
+        public int Id 
+        { 
+            get { return id; }
+        }
         public string Nombre 
         { 
             get { return nombre; }

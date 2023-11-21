@@ -4,29 +4,37 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<style>
-    .nombreMision{
-        opacity:0;
-    }
-</style>
 
-<select>
-@{
-    foreach (clsMision mision in ListadoMisiones.ListadoMisionesCompleto())
-    {
-        @if (Model != null && Model.Nombre == mision.Nombre)
+
+<select name="Id">
+    @{
+        foreach (clsMision mision in ListadoMisiones.ListadoMisionesCompleto())
         {
-            <option selected value="@Model.Nombre">@Model.Nombre</option>
+            @if (Model != null && Model.Id == mision.Id)
+            {
+                <option selected value="@Model.Id">@Model.Nombre</option>
+            }
+            else
+            {
+                <option value="@mision.Id">@mision.Nombre</option>
+            }
         }
-        else
-        {
-            <option value="@mision.Nombre">@mision.Nombre</option>
-        }
-    } 
-}
+    }
 
 </select>
-<button type="submit"
-    action="index">Ver Detalles</button>
+
+<button type="submit" action="Index">Ver detalles</button>
+
+
+
+
+@{
+    if (Model != null)
+    {
+        <h3>@Model.Nombre</h3>    
+        <h4>@Model.Detalles</h4>
+        <h4>@Model.Recompensa</h4>
+    }
+}
 
 
