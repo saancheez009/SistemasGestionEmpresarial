@@ -1,0 +1,30 @@
+Análisis inicial
+
+Biblioteca de clases:
+	
+	clsMision()
+		//La usaremos para establecer un objeto para cada una de las misiones de Mando
+		//Esta clase dispondrá de 3 atributos con sus respectivas propiedades (solo get) + constructores
+			string nombre;
+			string detalles;
+			int recompensa;
+
+Capa UI: 
+	View:
+		Index
+			//Select con el listado de cada misión(nombre)
+			//Button "Mas detalles"
+			//Detalles de la misión invisibles
+
+	Model: 
+		List <clsMision> ListadoMisiones: Devolverá un listado con los nombres de las misiones 
+
+	Controller:
+		//Action Index 
+			//Devolverá una vista
+		
+		//Action Index (clsMision)
+			//Devolverá la misma vista pero con el objeto de tipo mision donde se le mostrará los demás datos de la misión
+			//Visibilidad en los elementos de la vista
+			
+		
