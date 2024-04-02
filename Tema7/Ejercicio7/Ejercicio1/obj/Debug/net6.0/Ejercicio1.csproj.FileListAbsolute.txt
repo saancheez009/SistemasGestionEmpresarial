@@ -223,3 +223,6 @@ C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\SistemasGestionEmpresa
 C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\SistemasGestionEmpresarial\Tema7\Ejercicio7\Ejercicio1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\SistemasGestionEmpresarial\Tema7\Ejercicio7\Ejercicio1\obj\Debug\net6.0\Ejercicio1.csproj.AssemblyReference.cache
 C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\SistemasGestionEmpresarial\Tema7\Ejercicio7\Ejercicio1\obj\Debug\net6.0\Ejercicio1.csproj.CopyComplete
+C:\Users\bsanchez\Desktop\GitHub\SistemasGestionEmpresarialJ\Tema7\Ejercicio7\Ejercicio1\obj\Debug\net6.0\Ejercicio1.dll
+C:\Users\bsanchez\Desktop\GitHub\SistemasGestionEmpresarialJ\Tema7\Ejercicio7\Ejercicio1\obj\Debug\net6.0\refint\Ejercicio1.dll
+C:\Users\bsanchez\Desktop\GitHub\SistemasGestionEmpresarialJ\Tema7\Ejercicio7\Ejercicio1\obj\Debug\net6.0\Ejercicio1.pdb

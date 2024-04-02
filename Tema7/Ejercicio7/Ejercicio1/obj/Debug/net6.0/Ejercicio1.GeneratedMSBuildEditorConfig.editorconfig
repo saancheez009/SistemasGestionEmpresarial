@@ -9,49 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ejercicio1
 build_property.RootNamespace = Ejercicio1
-build_property.ProjectDir = C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\SistemasGestionEmpresarial\Tema7\Ejercicio7\Ejercicio1\
+build_property.ProjectDir = C:\Users\bsanchez\Desktop\GitHub\SistemasGestionEmpresarialJ\Tema7\Ejercicio7\Ejercicio1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jmmoreno\Desktop\2DAM\SistemasGestionEmpresarial\SistemasGestionEmpresarial\Tema7\Ejercicio7\Ejercicio1
+build_property.MSBuildProjectDirectory = C:\Users\bsanchez\Desktop\GitHub\SistemasGestionEmpresarialJ\Tema7\Ejercicio7\Ejercicio1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/Home/EditarPersona.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/Home/EditarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0YXJQZXJzb25hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/Home/GuardarPersona.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/Home/GuardarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHdWFyZGFyUGVyc29uYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/Home/Index.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/Home/ListadoPersonas.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/Home/ListadoPersonas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0YWRvUGVyc29uYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/Home/Privacy.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/Shared/Error.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/_ViewImports.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/_ViewStart.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jmmoreno/Desktop/2DAM/SistemasGestionEmpresarial/SistemasGestionEmpresarial/Tema7/Ejercicio7/Ejercicio1/Views/Shared/_Layout.cshtml]
+[C:/Users/bsanchez/Desktop/GitHub/SistemasGestionEmpresarialJ/Tema7/Ejercicio7/Ejercicio1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kfplyfjl45
